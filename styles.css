@@ -1,4 +1,12 @@
-nav{
+header{
     display: inline-block;
     margin-right: 30px;
+    margin: 25px 50px 25px 50px;
+    
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+       
 }
