@@ -1,8 +1,8 @@
 header{
     display: inline-block;
     margin-right: 30px;
-    margin: 25px 50px 25px 50px;
-    border: 1px solid black;
+    margin: 25px;
+    border-bottom: 1px solid black;
 }
 h1{
     text-align: center;
@@ -10,4 +10,15 @@ h1{
     font-size: 30px;
     border: 1px solid black;      
 }
+nav{
+    display: inline-block;
+}
+main{
+    border: 1px solid blue;
 
+    margin: 30px auto;
+}
+
+div{
+    border: 1px solid red;
+}
