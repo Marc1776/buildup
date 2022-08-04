@@ -1,14 +1,15 @@
 header{
-    display: inline-block;
-    margin-right: 30px;
-    margin: 25px;
+    
     border-bottom: 1px solid black;
+    background-color: beige;
+    
  }
 h1{
-    text-align: center;
+    text-align: left;
     color: blue;
     font-size: 30px;
-    border: 1px solid black;      
+    margin-left: 30px; 
+       
  }
  nav{
     display: inline-block;
@@ -16,12 +17,16 @@ h1{
 
  nav ul{
     padding: 0;
-    margin: 0 28px;
+    margin: 0 30px;
+    
  }
 
  nav li{
     display: inline-block;
     margin-right: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+    
  }
 
  main{
