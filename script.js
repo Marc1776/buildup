@@ -17,7 +17,7 @@ function likeBunnies(){
         alert("Nice try");
         getName();
     } else {
-        document.write("Welcome to the bunny page!");
+        document.write("We love bunnies too!");
         }
 }
 likeBunnies()
