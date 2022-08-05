@@ -6,7 +6,7 @@
 // document.write("Hello, " + response + ", welcome to my page.")
 // console.log(response);
 
-// let likeBunnies = "yes";
+let likeBunnies = "yes";
 
 let response; 
 while (response !== likeBunnies){
