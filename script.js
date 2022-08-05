@@ -6,6 +6,14 @@
 // document.write("Hello, " + response + ", welcome to my page.")
 // console.log(response);
 
+// function ask(){
+    let response = prompt("How many photos would you like to see? 1 to 3");{
+    for (let i = 1; i <= response; i= i + 1){
+        document.write('<img src="photos/Easter.jpg"/>');
+        console.log(response);
+    }
+}
+
 // let likeBunnies = "yes";
 
 // let response; 
@@ -20,3 +28,4 @@
 // for (let i = 1, i <= bunniesToShow; i++ ){
 // console.log( photos/sploot..JPG );
 // }
+
