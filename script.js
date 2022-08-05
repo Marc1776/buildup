@@ -11,6 +11,26 @@ function getName(){
 }
 getName()
 
+function likeBunnies(){
+    let userName = prompt("Do you like bunnies?");
+    if (userName == "" || userName == null || userName == undefined) {
+        alert("Nice try");
+        getName();
+    } else {
+        document.write("Welcome to the bunny page!");
+        }
+}
+likeBunnies()
+
+function howManyBunnies(){
+    let response = prompt("How many photos would you like to see? Please pick a value from 1 to 3");
+    for (let i = 0; i < response; i= i + 1){
+        document.write('<img src="photos/Easter.jpg" />');
+    }
+}
+howManyBunnies()
+
+
 // function askLikeBunnies(){
 //     let response = prompt("Do you like bunnies?");
 //     if (response == "yes"){
